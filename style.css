@@ -1,0 +1,44 @@
+body {
+  background: #f6f4ef;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #111;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+}
+
+.ball {
+  border: 2px solid #111;
+  padding: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ball:hover {
+  background: #111;
+  color: #f6f4ef;
+}
+
+button {
+  background: none;
+  border: 1px solid #111;
+  padding: 10px 20px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #111;
+  color: #f6f4ef;
+}
